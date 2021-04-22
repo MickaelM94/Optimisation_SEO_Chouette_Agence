@@ -567,13 +567,14 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog {
     width: 90%;
-    max-width: 900px;
+    max-width: 500px;
     margin: 0 auto 0;
 }
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
     margin: 0 auto;
+    border-radius: 4px;
 }
 
 .lightbox-caption {
@@ -598,6 +599,7 @@ a[data-lightbox]:hover img {
     line-height: 30px;
     padding: 0 9px 5px;
     opacity: 0.3;
+    border-radius: 4px;
 }
 
 .close-lightbox:hover,
@@ -617,6 +619,7 @@ a[data-lightbox]:hover img {
     top: 45%;
     z-index: 1;
     opacity: 0.4;
+    border-radius: 4px;
 }
 
 .next-lightbox {
@@ -630,13 +633,14 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 75px;
 }
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    text-align: center;
 }
 
 h1,
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -707,6 +711,8 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    font-weight: bold;
+    color: #F3976C!important;
 }
 
 h3 {
@@ -714,11 +720,12 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 1.5;
 }
 
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
+    max-width: 1000px;
+    margin: 40px auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -740,7 +747,10 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
 }
 
 .portfolio-row {
@@ -754,7 +764,8 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 40px 5px;
+    border-radius: 4px;
 }
 
 .bold-link {
@@ -775,7 +786,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -980,13 +991,9 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 100px 0px 40px 0px !important;
     }
-    .bloc-sm,
-    .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
-    }
+    
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
@@ -1028,10 +1035,38 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+/* RESPONSIVE */
+
+@media (min-width: 425px) {
+    .xl {
+        margin-bottom: 50px !important;
+    }
+    .bloc-lg {
+        padding-bottom: 100px !important;
+    }
+}
+
+@media (min-width: 767px) {
+
+    .black-background {
+        background-color: rgba(165, 147, 99, 0.7);
+        padding: 40px;
+        border-radius: 4px;
+    }
+    .bloc-project {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 70px;
+        justify-content: center;
+        margin: 100px auto auto auto;
+        padding: 0px 40px;
+        max-width: 840px;
+    }
+    .bloc-lg {
+        padding: 100px 0px 100px 0px !important;
+    }
+    .cta {
+        font-size: x-large!important;
     }
 }
 
@@ -1040,3 +1075,67 @@ h4 {
         text-align: center;
     }
 }
+
+/* MODIFICATIONS */
+
+.missions {
+    max-width: 500px;
+    margin: auto;
+}
+
+.lead {
+    font-size: large;
+    font-weight: bold;
+    margin: auto;
+    max-width: 600px;
+}
+
+.xl {
+    font-size: x-large;
+}
+
+.cta {
+    position: relative;
+    font-size: large;
+}
+
+.blockquote {
+    font-style: italic;
+    margin: auto auto 20px auto ;
+    max-width: 500px;
+}
+
+.blockquote-footer {
+    font-size: small;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.bloc-project {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    justify-content: center;
+    margin: 40px auto 0px auto;
+    max-width: 840px;
+}
+
+.project-describ {
+    max-width: 400px;
+    margin: auto;
+}
+
+.footer-bloc {
+    margin: 20px auto;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social * {
+    margin: 0px 5px;
+}
+
