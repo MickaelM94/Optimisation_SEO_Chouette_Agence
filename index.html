@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Une refonte de site ? Un nouveau projet web ? L'équipe de la chouette agence se fera un plaisir de vous recevoir. A distance ou dans nos locaux à Lyon.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
@@ -33,21 +33,20 @@
 <!-- bloc-0 -->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
-
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo de l'agence web design ''La Chouette Agence'' située à Lyon." height="40" /></a>
+				<a class="navbar-brand" tabindex="1" href="index.html"><img src="img/la-chouette-agence.png" alt="logo de l'agence web design ''La Chouette Agence'' située à Lyon." height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span tabindex="2" class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a tabindex="3" href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a href="page2.html">Contact</a>
+						<a tabindex="4" href="page2.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -57,7 +56,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<header class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
@@ -66,20 +65,20 @@
 					La chouette agence
 				</h1>
 				<div class="text-center">
-					<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="page2.html"  tabindex="5" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</header>
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+<main class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row voffset-md voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center m-auto">
-				<p class="lead">La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</p>
+				<p  tabindex="6" class="lead">La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.</p>
 			</div>
 		</div>
 		<div class="row voffset-lg med-width-whitespace">
@@ -87,10 +86,10 @@
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2 tabindex="7" class="mg-md text-center">
 					Web design
 				</h2>
-				<p class="text-center">
+				<p tabindex="8" class="text-center">
 					Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
 				</p>
 			</div>
@@ -98,10 +97,10 @@
 				<div class="text-center">
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2  tabindex="9" class="mg-md text-center">
 					&nbsp;Stratégie
 				</h2>
-				<p class="text-center ">
+				<p tabindex="10" class="text-center ">
 					Plutôt que de suggérer des designs à la mode, nous travaillerons avec vous pour comprendre vos objectifs commerciaux afin de vous proposer le meilleur design possible.<br>
 				</p>
 			</div>
@@ -109,110 +108,111 @@
 				<div class="text-center">
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
 				</div>
-				<h2 class="mg-md text-center">
+				<h2  tabindex="11" class="mg-md text-center">
 					Illustrations
 				</h2>
-				<p class="text-center ">
+				<p tabindex="12" class="text-center ">
 					Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
 				</p>
 			</div>
 		</div>
 		<div class="row voffset-md voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center m-auto">
-				<div class="blockquote">
-					<p class="lead">"La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon"</p>
-					<div class="blockquote-footer">Maxime Guibard, PDG d'À vos fourchettes </div>
-				</div>
+				<blockquote class="blockquote">
+					<p tabindex="13" class="lead">"La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon"</p>
+					<div tabindex="14" class="blockquote-footer">Maxime Guibard, PDG d'À vos fourchettes </div>
+				</blockquote>
 			</div>
 		</div>
 	</div>
-</div>
+</main>
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
-				<h2 class="mg-md text-center tc-white">
-					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
-				</h2>
-				<p class="text-center white">
-					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+				<p tabindex="15" class="lead mg-md text-center tc-white">
+					Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.<br>
+				</p>
+				<br>
+				<p tabindex="16" class="text-center white">
+					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a tabindex="17" class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center m-auto">
-				<p class="lead xl mg-lg">Nous travaillons avec beaucoup de clients,<br> voici nos réalisations.</p>
+				<p tabindex="18" class="lead xl mg-lg">Nous travaillons avec beaucoup de clients,<br> voici nos réalisations.</p>
 			</div>
 		</div>
 		<div class="row bloc-project">
 				<!-- PROJET #1 -->
 				<div class="project col-sm-12 col-md-6">
-					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" class="img-responsive portfolio-thumb" alt="Image représentant la refonte du site web du journal local par la Chouette Agence à Lyon."/></a>
-					<h3 class="text-center">
+					<a tabindex="19" href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" class="img-responsive portfolio-thumb" alt="Image représentant la refonte du site web du journal local par la Chouette Agence à Lyon."/></a>
+					<h3 tabindex="20" class="text-center">
 						Refonte d'un site web<br> pour un journal local
 					</h3>
-					<p class="project-describ text-center">
+					<p tabindex="21" class="project-describ text-center">
 						Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 					</p>
 				</div>
 				<!-- PROJET #2 -->
 				<div class="project col-sm-12 col-md-6">
-					<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour photographes par la Chouette Agence à Lyon."/></a>
-					<h3 class="text-center">
+					<a tabindex="22" href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour photographes par la Chouette Agence à Lyon."/></a>
+					<h3 tabindex="23" class="text-center">
 						Création d'un site web<br> pour photographes
 					</h3>
-					<p class="project-describ text-center">
+					<p tabindex="24" class="project-describ text-center">
 						Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 					</p>
 				</div>
 				<!-- PROJET #3 -->
 				<div class="project col-sm-12 col-md-6">
-					<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour voyageur par la Chouette Agence à Lyon."/></a>
-					<h3 class="text-center">
+					<a tabindex="25" href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour voyageur par la Chouette Agence à Lyon."/></a>
+					<h3 tabindex="26" class="text-center">
 						Création d'un site internet<br> pour un voyageur
 					</h3>
-					<p class="project-describ text-center">
+					<p tabindex="27" class="project-describ text-center">
 						Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
 					</p>
 				</div>
 				<!-- PROJET #4 -->
 				<div class="project col-sm-12 col-md-6">
-					<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour une agence de mariage par la Chouette Agence à Lyon."/></a>
-					<h3 class="text-center">
+					<a tabindex="28" href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Image représentant la création d'un site web pour une agence de mariage par la Chouette Agence à Lyon."/></a>
+					<h3 tabindex="29" class="text-center">
 						Conception d'un site<br> pour une agence de mariage
 					</h3>
-					<p class="project-describ text-center">
+					<p tabindex="30" class="project-describ text-center">
 						Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 					</p>
 				</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
-			<p class="lead cta mg-md text-center tc-white">
+			<p tabindex="31" class="lead cta mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</p>
 			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a tabindex="32" href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
@@ -220,28 +220,28 @@
 	<div class="container bloc-sm">
 		<div class="row footer-bloc">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p tabindex="33" class="text-center">
 					La chouette agence<br>Agence web basée à Lyon
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a tabindex="34" class="social" name="Logo de Twitter" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a tabindex="35" class="social" name="Logo de facebook" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a tabindex="36" class="social" name="Logo de Dribbble" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a tabindex="37" class="social" name="Logo d'Instagram" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
