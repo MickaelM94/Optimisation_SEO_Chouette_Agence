@@ -655,7 +655,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #474747!important;
 }
 
 .container {
@@ -1109,6 +1109,12 @@ h4 {
     font-size: small;
     font-style: normal;
     margin-top: 5px;
+    color: black;
+}
+
+
+.blockquote-footer::before {
+    content: "- ";
 }
 
 .bloc-project {
@@ -1129,16 +1135,32 @@ h4 {
     margin: 20px auto;
 }
 
-.social {
+.social-list {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    column-gap: 30px;
 }
 
-.social * {
-    margin: 0px 5px;
-    color: #575757!important;
+.social-bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.social-img {
+    margin: 10px auto;
+}
+
+.social-list a {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.social-list a:hover {
+    text-decoration: none;
+}
+
 
 /* FOCUS */
 
