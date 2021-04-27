@@ -790,7 +790,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1133,6 +1133,7 @@ h4 {
 
 .footer-bloc {
     margin: 20px auto;
+    font-size: 16px!important;
 }
 
 .social-list {
